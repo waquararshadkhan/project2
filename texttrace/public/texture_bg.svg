@@ -1,0 +1,14 @@
+<svg width="60" height="60" viewBox="0 0 60 60" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <pattern id="weave" x="0" y="0" width="20" height="20" patternUnits="userSpaceOnUse">
+      <rect width="20" height="20" fill="#f8f9fa" opacity="0.1"/>
+      <rect x="0" y="0" width="10" height="10" fill="#e9ecef" opacity="0.1"/>
+      <rect x="10" y="10" width="10" height="10" fill="#e9ecef" opacity="0.1"/>
+      <line x1="0" y1="5" x2="20" y2="5" stroke="#dee2e6" stroke-width="0.5" opacity="0.3"/>
+      <line x1="0" y1="15" x2="20" y2="15" stroke="#dee2e6" stroke-width="0.5" opacity="0.3"/>
+      <line x1="5" y1="0" x2="5" y2="20" stroke="#dee2e6" stroke-width="0.5" opacity="0.3"/>
+      <line x1="15" y1="0" x2="15" y2="20" stroke="#dee2e6" stroke-width="0.5" opacity="0.3"/>
+    </pattern>
+  </defs>
+  <rect width="60" height="60" fill="url(#weave)"/>
+</svg>

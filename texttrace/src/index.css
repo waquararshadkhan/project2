@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&family=Open+Sans:wght@400;500;600&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    font-family: 'Open Sans', sans-serif;
+  }
+  
+  h1, h2, h3, h4, h5, h6 {
+    font-family: 'Poppins', sans-serif;
+  }
+  
+  body {
+    font-family: 'Open Sans', sans-serif;
+  }
+  
+  /* Light mode background with texture */
+  body:not(.dark) {
+    background-image: url('/texture_bg.svg');
+    background-repeat: repeat;
+  }
+  
+  /* Dark mode solid background */
+  body.dark {
+    background-color: #111827;
+  }
+}
